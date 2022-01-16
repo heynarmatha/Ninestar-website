@@ -1,0 +1,58 @@
+.footer-section{
+    .footer-section-wrapper{
+        h3{
+            font-size: 30px !important;
+            @include font-style($font-light-bold);
+        }
+        address{
+            font-size: 18px;
+            color: $footer-content-grey;
+        }
+        a{
+            font-size: 18px;
+            @include font-style($font-bold-light);
+            color: $footer-content-grey;
+            span{
+                @include font-style($font-light-bold);
+                font-size: 18px !important;
+            }
+        }
+        h5{
+            font-size: 1.5rem;
+            @include font-style($font-bold-light);
+        }
+        a{
+            font-size: 1.2rem;
+            line-height: 1.9;
+            i{
+                font-size: 12px;
+            }
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        .icon{
+            .on{
+                background-color:$btn-orange;
+                color: $white;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                font-size: 20px;
+                margin-right: 5px;
+                margin-top: 8px;
+                i{
+                    color: $white;
+                }
+            }
+        }
+    }
+    .copyrights{
+        background-color: $banner-bg-light-sandle;
+        font-size: 18px;
+        text-align: center;
+        .color{
+            color: $btn-orange;
+        }
+    }
+}

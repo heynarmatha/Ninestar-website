@@ -1,0 +1,49 @@
+$logo-para-brown:#8f8179;
+$menu-brown:#6b5f59;
+$btn-orange:#eb5d1e;
+$whitesmoke:#ffffff;
+$white:white;
+$black:black;
+$red:red;
+$orangered:orangered;
+$icon-bg-color-lightorange:#fcf0ea;
+$comman-grey:#c6bcb7;
+$light-icon-orange:#f39e7a;
+$banner-bg-light-sandle:#fef8f5;
+$banner-heading-brown:#4e4039;
+$footer-content-grey:#6e6e6e;
+$font-family: 'Roboto', sans-serif;
+$font-light: (
+    font-family:$font-family,
+    font-weight:300
+);
+$font-light-bold: (
+    font-family:$font-family,
+    font-weight:400
+);
+$font-regular: (
+    font-family:$font-family,
+    font-weight:500
+);
+$font-regular-bold: (
+    fontfamily:$font-family,
+    font-weight:600
+);
+$font-bold-light: (
+    font-family:$font-family,
+    font-weight:700
+);
+$font-bold-medium: (
+    font-family:$font-family,
+    font-weight:800
+);
+$font-bold: (
+    font-family:$font-family,
+    font-weight:900
+);
+@mixin font-style($font) {
+    @each $property,$value in $font {
+        #{$property}:$value;        
+    }
+}
+
